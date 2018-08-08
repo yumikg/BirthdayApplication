@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import static com.example.yumi.birthdayapplication.R.id.editText3;
+
 public class SubActivity extends Activity implements View.OnClickListener{
 
     @Override
@@ -28,6 +30,7 @@ public class SubActivity extends Activity implements View.OnClickListener{
     public void onClick(View view) {
 
         finish();
+
 
     }
 }
